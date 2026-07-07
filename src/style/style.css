@@ -23,3 +23,75 @@ header{
     color: var(--color-black);
     text-decoration: none;    
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 191px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-container h1{
+    font-family: var(--font-family);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    width: 587px;
+    line-height: 130.6%;
+}
+
+span{
+    color: var(--color-primary);
+}
+
+.main-container p{
+    font-family: var(--font-family);
+    font-size: var(--font-size-boddy);
+    font-weight: var(--font-weight-boddy);
+    width: 564px;
+    color: var(--color-white);
+}
+
+.nav-main{
+    display: flex;
+    gap: 20px;
+}
+
+.bnt-primary{
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-btn);
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 0.2s;
+}
+
+.bnt-primary:hover{
+    background-color: #218898;
+}
+
+.bnt-secundery{
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: 1px solid var(--color-primary)  ;
+    font-family: var(--font-family);
+    font-size: var(--font-size-btn);
+    font-weight: var(--font-weight-btn);
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.bnt-secundery:hover{
+    background-color: #11b0c889;
+    color: var(--color-white);
+}
+
