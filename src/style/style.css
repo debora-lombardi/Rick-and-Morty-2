@@ -158,3 +158,17 @@ main{
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
 }
+
+footer{
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    background-color: var(--color-black);
+}
+
+footer h2{
+    font-family: var(--font-family);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    color: var(--color-white);
+}
