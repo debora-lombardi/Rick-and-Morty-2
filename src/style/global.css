@@ -7,27 +7,31 @@
 
 :root{
 
-/* ----- Cores ----- */
+    /* ----- Cores ----- */
 
---color-primary : #11B0C8;
---color-black : #000000;
---color-black-1 : #1A1A1A;
---color-white : #FFFFFF;
+    --color-primary : #11B0C8;
+    --color-black : #000000;
+    --color-black-1 : #1A1A1A;
+    --color-white : #FFFFFF;
 
 
---font-size-h1 : 40px;
---font-size-h2 : 40px;
---font-size-h3 : 20px;
---font-size-body : 20px;
---font-size-btn: 20px;
---font-size-caption : 20px;
+/* SIZE */
+    --font-size-h1: 40px; /* Variável tamanho da fonte */
+    --font-size-h2: 35px; /* Variável tamanho da fonte */
+    --font-size-h3: 30px; /* Variável tamanho da fonte */
+    --font-size-h4: 25px; /* Variável tamanho da fonte */
+    --font-size-body: 20px; /* Variável tamanho da fonte */
+    --font-size-button: 20px; /* Variável tamanho da fonte */
+    --font-size-caption: 16px; /* Variável tamanho da fonte */
 
---font-weight-h1 : 700;
---font-weight-h2 : 700;
---font-weight-h3 : 700;
---font-weight-body : 400;
---font-weight-btn : 700;
---font-weight-caption : 700;
+/* WEIGHT */
+    --font-weight-h1: 600; /* Variável Espessura da Fonte */
+    --font-weight-h2: 600; /* Variável Espessura da Fonte */
+    --font-weight-h3: 600; /* Variável Espessura da Fonte */
+    --font-weight-h4: 500; /* Variável Espessura da Fonte */
+    --font-weight-body: 400; /* Variável Espessura da Fonte */
+    --font-weight-button: 700; /* Variável Espessura da Fonte */
+    --font-weight-caption: 400; /* Variável Espessura da Fonte */
 
 --font-family : "Poppins", sans-serif;
 
